@@ -4,41 +4,44 @@
 
 @layer base {
   :root {
-    --background: 15 10% 6%;
-    --foreground: 40 20% 95%;
+    --background: 0 0% 98%;
+    --foreground: 222 47% 11%;
 
-    --card: 15 10% 9%;
-    --card-foreground: 40 20% 95%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
 
-    --popover: 15 10% 9%;
-    --popover-foreground: 40 20% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 35 100% 55%;
-    --primary-foreground: 15 10% 6%;
+    --primary: 35 100% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 15 10% 14%;
-    --secondary-foreground: 40 20% 95%;
+    --secondary: 222 47% 18%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 15 10% 14%;
-    --muted-foreground: 40 10% 55%;
+    --muted: 220 20% 94%;
+    --muted-foreground: 222 20% 45%;
 
-    --accent: 35 100% 55%;
-    --accent-foreground: 15 10% 6%;
+    --accent: 35 100% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 40 20% 95%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 15 10% 18%;
-    --input: 15 10% 18%;
-    --ring: 35 100% 55%;
+    --border: 222 20% 88%;
+    --input: 222 20% 88%;
+    --ring: 35 100% 50%;
 
     --radius: 0.25rem;
 
     --neon: #ff8c00;
     --neon-glow: rgba(255, 140, 0, 0.3);
-    --dark: #0e0c0a;
-    --dark2: #161310;
-    --dark3: #1e1a16;
+    --dark: #f8f8fa;
+    --dark2: #eef0f5;
+    --dark3: #e2e6ef;
+    --navy: #0f1f4b;
+    --navy2: #162355;
+    --navy3: #1d2d6a;
   }
 }
 
@@ -56,6 +59,7 @@
     font-family: "Golos Text", sans-serif;
     background-color: var(--dark);
     overflow-x: hidden;
+    color: var(--navy);
   }
 
   h1,
@@ -206,7 +210,7 @@
   width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--dark);
+  background: var(--dark2);
 }
 ::-webkit-scrollbar-thumb {
   background: var(--neon);
