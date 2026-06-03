@@ -126,8 +126,16 @@ export default function Index() {
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border/60 backdrop-blur-xl bg-white/90">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="#home" className="font-oswald text-2xl font-bold tracking-wider text-[var(--navy)]">
-            КАР<span className="text-neon">КАС</span>
+          <a href="#home" className="flex items-center gap-3">
+            <img
+              src="https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/5da99e93-d443-4a04-93d8-a770e3fca415.png"
+              alt="STATUS HOUSE"
+              className="h-10 w-auto object-contain"
+            />
+            <div className="hidden sm:flex flex-col leading-none">
+              <span className="font-oswald text-lg font-bold tracking-widest text-[var(--navy)] uppercase">Status House</span>
+              <span className="text-[10px] text-[var(--navy)]/50 tracking-wider">Просто. Быстро. Навсегда</span>
+            </div>
           </a>
           <div className="hidden md:flex items-center gap-8">
             {NAV_ITEMS.map((item) => (
@@ -557,8 +565,13 @@ export default function Index() {
       <footer className="border-t border-border/60 py-8 bg-[var(--navy)]">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="font-oswald text-xl font-bold tracking-wider text-white">
-              КАР<span className="text-neon">КАС</span>
+            <div className="flex items-center gap-3">
+              <img
+                src="https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/5da99e93-d443-4a04-93d8-a770e3fca415.png"
+                alt="STATUS HOUSE"
+                className="h-8 w-auto object-contain brightness-0 invert"
+              />
+              <span className="font-oswald text-lg font-bold tracking-widest text-white uppercase">Status House</span>
             </div>
             <div className="text-sm text-white/50 text-center">
               © 2024 КАРКАС. Все права защищены.
