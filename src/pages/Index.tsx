@@ -128,7 +128,7 @@ export default function Index() {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <a href="#home" className="flex items-center gap-3">
             <img
-              src="https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/5da99e93-d443-4a04-93d8-a770e3fca415.png"
+              src="https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/31399dd1-ae84-4a7b-ba7f-bdbc6488177a.png"
               alt="STATUS HOUSE"
               className="h-10 w-auto object-contain"
             />
@@ -567,7 +567,7 @@ export default function Index() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <img
-                src="https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/5da99e93-d443-4a04-93d8-a770e3fca415.png"
+                src="https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/31399dd1-ae84-4a7b-ba7f-bdbc6488177a.png"
                 alt="STATUS HOUSE"
                 className="h-8 w-auto object-contain brightness-0 invert"
               />
