@@ -423,8 +423,8 @@ export default function Index() {
                   name: "Елена Миронова",
                   role: "Руководитель клиентского сервиса",
                   desc: "Помогает легко пройти все этапы до переезда",
-                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/afc6137c-7af1-46d2-8dfa-74446fa1871c.png",
-                  cropIndex: 1,
+                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/0b795a63-a28e-4cf0-b6ef-a5d5651e064b.png",
+                  cropIndex: null,
                 },
                 {
                   name: "Дмитрий Соколов",
