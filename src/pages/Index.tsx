@@ -416,19 +416,22 @@ export default function Index() {
                   name: "Александр Вершинин",
                   role: "Основатель компании",
                   desc: "Гарантирует надежность, честность и строгий контроль качества",
-                  offsetX: "0%",
+                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/d81db037-73c1-49ff-b34b-58e312c3e6ec.png",
+                  cropIndex: null,
                 },
                 {
                   name: "Елена Миронова",
                   role: "Руководитель клиентского сервиса",
                   desc: "Помогает легко пройти все этапы до переезда",
-                  offsetX: "33.33%",
+                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/afc6137c-7af1-46d2-8dfa-74446fa1871c.png",
+                  cropIndex: 1,
                 },
                 {
                   name: "Дмитрий Соколов",
                   role: "Главный архитектор-проектировщик",
                   desc: "Создает безупречные проекты для комфортной жизни",
-                  offsetX: "66.66%",
+                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/afc6137c-7af1-46d2-8dfa-74446fa1871c.png",
+                  cropIndex: 2,
                 },
               ].map((person, i) => (
                 <div
@@ -436,21 +439,27 @@ export default function Index() {
                   className="overflow-hidden border border-[var(--navy)]/20 shadow-lg"
                   style={{ background: 'linear-gradient(to bottom, #ffffff, #f0f2f5)' }}
                 >
-                  {/* Фото — кроп нужного человека */}
                   <div className="relative h-56 overflow-hidden">
-                    <img
-                      src="https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/afc6137c-7af1-46d2-8dfa-74446fa1871c.png"
-                      alt={person.name}
-                      className="absolute top-0 h-full w-auto max-w-none"
-                      style={{
-                        left: i === 0 ? '-5%' : i === 1 ? '-105%' : '-205%',
-                        width: '315%',
-                        objectFit: 'cover',
-                        objectPosition: 'top',
-                      }}
-                    />
+                    {person.cropIndex === null ? (
+                      <img
+                        src={person.img}
+                        alt={person.name}
+                        className="w-full h-full object-cover object-top"
+                      />
+                    ) : (
+                      <img
+                        src={person.img}
+                        alt={person.name}
+                        className="absolute top-0 h-full w-auto max-w-none"
+                        style={{
+                          left: person.cropIndex === 1 ? '-105%' : '-205%',
+                          width: '315%',
+                          objectFit: 'cover',
+                          objectPosition: 'top',
+                        }}
+                      />
+                    )}
                   </div>
-                  {/* Текст */}
                   <div className="p-6">
                     <div className="font-oswald text-xl font-bold text-[var(--navy)] mb-1">{person.name}</div>
                     <div className="text-sm font-semibold text-neon mb-3 uppercase tracking-wide">{person.role}</div>
