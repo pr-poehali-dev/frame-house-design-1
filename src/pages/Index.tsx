@@ -416,7 +416,7 @@ export default function Index() {
                   name: "Александр Вершинин",
                   role: "Основатель компании",
                   desc: "Гарантирует надежность, честность и строгий контроль качества",
-                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/d81db037-73c1-49ff-b34b-58e312c3e6ec.png",
+                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/95b07562-e20b-4840-920d-b405b112809e.png",
                   cropIndex: null,
                 },
                 {
@@ -444,7 +444,7 @@ export default function Index() {
                       <img
                         src={person.img}
                         alt={person.name}
-                        className="w-full h-full object-cover object-top"
+                        className="w-full h-full object-contain object-center"
                       />
                     ) : (
                       <img
