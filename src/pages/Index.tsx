@@ -40,12 +40,12 @@ const PORTFOLIO = [
   },
   {
     id: 4,
-    title: "Дом «Клён»",
-    area: "95 м²",
-    style: "Эко",
-    price: "от 1.9 млн ₽",
+    title: "DOMO",
+    area: "110 м²",
+    style: "Скандинавский минимализм",
+    price: "от 6.2 млн ₽",
     tag: "Бюджетный",
-    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/files/8db8d986-a1d6-46ed-bcf3-3d13bd57af24.jpg",
+    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/8b7dfd1e-e6e5-4fca-b3ce-82d128a09046.png",
   },
   {
     id: 5,
