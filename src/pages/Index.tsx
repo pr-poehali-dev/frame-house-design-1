@@ -430,8 +430,8 @@ export default function Index() {
                   name: "Дмитрий Соколов",
                   role: "Главный архитектор-проектировщик",
                   desc: "Создает безупречные проекты для комфортной жизни",
-                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/afc6137c-7af1-46d2-8dfa-74446fa1871c.png",
-                  cropIndex: 2,
+                  img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/55992ccf-ca53-4d21-9862-69423c3fcce9.png",
+                  cropIndex: null,
                 },
               ].map((person, i) => (
                 <div
