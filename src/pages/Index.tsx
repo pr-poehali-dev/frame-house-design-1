@@ -49,12 +49,12 @@ const PORTFOLIO = [
   },
   {
     id: 5,
-    title: "Дом «Зенит»",
-    area: "310 м²",
-    style: "Хай-тек",
-    price: "от 9.1 млн ₽",
+    title: "Vertex",
+    area: "450 м²",
+    style: "Премиум Хай-тек",
+    price: "от 28 млн ₽",
     tag: "VIP",
-    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/files/8db8d986-a1d6-46ed-bcf3-3d13bd57af24.jpg",
+    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/1192a2fe-84d0-4464-9da3-4942a287b15d.png",
   },
   {
     id: 6,
