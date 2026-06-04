@@ -68,11 +68,11 @@ const PORTFOLIO = [
 ];
 
 const SERVICES = [
-  { icon: "PenTool", title: "Проектирование", desc: "Уникальный дизайн-проект под ваши пожелания и участок. 3D-визуализация в подарок." },
-  { icon: "Hammer", title: "Строительство", desc: "Строим под ключ с гарантией 10 лет. Собственная бригада, контроль на каждом этапе." },
-  { icon: "Leaf", title: "Эко-материалы", desc: "Используем сертифицированные материалы безопасные для здоровья и экологии." },
-  { icon: "Zap", title: "Энергоэффективность", desc: "Дома с энергоэффективностью класса A. Тепло зимой, прохладно летом." },
-  { icon: "Shield", title: "Гарантия 10 лет", desc: "Официальная гарантия на конструктив, кровлю и фасад. Договор с фиксированной ценой." },
+  { icon: "PenTool", title: "Авторское проектирование", desc: "Создаём уникальный архитектурный проект под ваш участок, бюджет и стиль жизни. 3D-визуализация в подарок." },
+  { icon: "Hammer", title: "Строительство под ключ", desc: "Возводим дома любой сложности: от компактных барнхаусов до премиальных вилл. Гарантия 10 лет." },
+  { icon: "Layers", title: "Любой архитектурный стиль", desc: "Барнхаус, хай-тек, скандинавский минимализм, эко, лофт — воплотим любую концепцию." },
+  { icon: "Zap", title: "Энергоэффективность", desc: "Проектируем дома класса A+. Умные инженерные системы, тёплые полы, рекуперация воздуха." },
+  { icon: "Shield", title: "Гарантия 10 лет", desc: "Официальная гарантия на конструктив, кровлю и фасад. Фиксированная цена в договоре." },
   { icon: "CreditCard", title: "Ипотека и рассрочка", desc: "Работаем с ведущими банками. Рассрочка 0% от застройщика на 2 года." },
 ];
 
@@ -90,7 +90,7 @@ const STATS = [
   { value: "45 дней", label: "Средний срок стройки" },
 ];
 
-const TICKER_ITEMS = ["КАРКАСНЫЕ ДОМА", "УНИКАЛЬНЫЙ ДИЗАЙН", "ПОД КЛЮЧ", "ГАРАНТИЯ 10 ЛЕТ", "РАССРОЧКА 0%", "500+ ПРОЕКТОВ"];
+const TICKER_ITEMS = ["УНИКАЛЬНЫЕ ДОМА", "АВТОРСКИЙ ДИЗАЙН", "ПОД КЛЮЧ", "ГАРАНТИЯ 10 ЛЕТ", "РАССРОЧКА 0%", "500+ ПРОЕКТОВ"];
 
 export default function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -197,7 +197,7 @@ export default function Index() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 border border-neon/40 bg-neon/10 text-neon text-xs font-oswald uppercase tracking-widest px-4 py-2 mb-8 animate-fade-up">
               <span className="w-1.5 h-1.5 rounded-full bg-neon animate-pulse" />
-              Строим уникальные каркасные дома
+              Строим дома вашей мечты
             </div>
             <h1
               className="font-oswald text-6xl md:text-8xl font-bold leading-none mb-6 animate-fade-up text-white"
@@ -211,7 +211,7 @@ export default function Index() {
               className="text-lg md:text-xl text-white/70 max-w-xl mb-10 leading-relaxed animate-fade-up"
               style={{ animationDelay: '0.2s', opacity: 0, animationFillMode: 'forwards' }}
             >
-              Каркасные дома нового поколения — быстро, тепло, красиво. Авторские проекты и строительство под ключ.
+              Барнхаусы, виллы, лофты, эко-дома — любой стиль и масштаб. Авторский проект и строительство под ключ.
             </p>
             <div
               className="flex flex-wrap gap-4 animate-fade-up"
@@ -369,10 +369,10 @@ export default function Index() {
                 МЫ СТРОИМ<br /><span className="text-neon">МЕЧТЫ</span>
               </h2>
               <p className="text-white/70 leading-relaxed mb-6">
-                Компания «Каркас» — лидер в строительстве каркасных домов с уникальным дизайном. За 10 лет мы построили более 500 домов по всей России и разработали более 200 авторских проектов.
+                Status House — архитектурная компания полного цикла. Мы проектируем и строим дома любых стилей: от уютных барнхаусов до премиальных вилл с бассейном. Более 500 реализованных проектов по всей России.
               </p>
               <p className="text-white/70 leading-relaxed mb-10">
-                Наша команда — это 80 профессионалов: архитекторы, дизайнеры, инженеры и строители. Мы создаём дома, которые отражают характер и стиль жизни владельца.
+                Наша команда — 80 профессионалов: архитекторы, дизайнеры, инженеры и строители. Каждый дом — это авторская история, отражающая характер и стиль жизни его владельца.
               </p>
               <div className="flex flex-col sm:flex-row gap-6">
                 <div className="border-l-2 border-neon pl-4">
@@ -444,10 +444,10 @@ export default function Index() {
         }} />
         <div className="container mx-auto px-4 text-center relative z-10">
           <h2 className="font-oswald text-4xl md:text-6xl font-bold text-white mb-4">
-            ГОТОВЫ ПОСТРОИТЬ ДОМ МЕЧТЫ?
+            ВАША ИСТОРИЯ НАЧИНАЕТСЯ ЗДЕСЬ
           </h2>
           <p className="text-white/80 mb-8 text-lg max-w-xl mx-auto">
-            Получите бесплатную консультацию и расчёт стоимости за 24 часа
+            Расскажите о своей мечте — мы подберём стиль, рассчитаем стоимость и предложим проект за 24 часа
           </p>
           <a href="#contacts" className="inline-flex items-center gap-3 bg-[var(--navy)] text-white font-oswald font-bold uppercase tracking-wider px-10 py-4 text-lg hover:bg-[var(--navy2)] transition-all hover:scale-105">
             Получить расчёт
