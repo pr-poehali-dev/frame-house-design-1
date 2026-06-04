@@ -31,12 +31,12 @@ const PORTFOLIO = [
   },
   {
     id: 3,
-    title: "Дом «Прима»",
-    area: "240 м²",
-    style: "Лофт",
-    price: "от 6.5 млн ₽",
+    title: "Стоун Хаус",
+    area: "260 м²",
+    style: "Современный Райт",
+    price: "от 16 млн ₽",
     tag: "Премиум",
-    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/files/8db8d986-a1d6-46ed-bcf3-3d13bd57af24.jpg",
+    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/225a70db-5d32-4b0d-8a04-ed49f954fd72.png",
   },
   {
     id: 4,
