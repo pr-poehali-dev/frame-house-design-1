@@ -13,12 +13,12 @@ const NAV_ITEMS = [
 const PORTFOLIO = [
   {
     id: 1,
-    title: "Дом «Горизонт»",
-    area: "180 м²",
-    style: "Минимализм",
-    price: "от 4.2 млн ₽",
+    title: "Nordic Barn",
+    area: "140 м²",
+    style: "Барнхаус",
+    price: "от 8.5 млн ₽",
     tag: "Хит продаж",
-    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/files/8db8d986-a1d6-46ed-bcf3-3d13bd57af24.jpg",
+    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/ce379f4d-979e-43b8-bab6-1d1ad27543e3.png",
   },
   {
     id: 2,
