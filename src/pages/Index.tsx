@@ -22,12 +22,12 @@ const PORTFOLIO = [
   },
   {
     id: 2,
-    title: "Дом «Альфа»",
-    area: "120 м²",
-    style: "Скандинавский",
-    price: "от 2.8 млн ₽",
+    title: "BRICK",
+    area: "210 м²",
+    style: "Индустриальный Лофт",
+    price: "от 13.5 млн ₽",
     tag: "Новинка",
-    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/files/8db8d986-a1d6-46ed-bcf3-3d13bd57af24.jpg",
+    img: "https://cdn.poehali.dev/projects/a406fa72-21f4-4eeb-b26e-b59df728da11/bucket/e98632fd-06aa-429b-8496-b4eddbb37545.png",
   },
   {
     id: 3,
